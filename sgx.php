@@ -1,5 +1,5 @@
 <?php
 
-echo "Hello SGX data";
+echo "Hello 22 SGX data";
 
 ?>
