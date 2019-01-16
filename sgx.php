@@ -4,7 +4,7 @@ $url = 'http://www.sgx.com/JsonRead/JsonstData?qryId=RStock&timeout=30&%20noCach
 //$url = 'http://localhost/mynote/data/sgxdata.txt';
 $content = get_fcontent($url);
 $i = stripos($content, '[{ID:');
-$sub_str = substr($content, $i);
+$sub_str = substr($content, $i) ;
 //print_r($sub_str);
 $content = $sub_str;
 
